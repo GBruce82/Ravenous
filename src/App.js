@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import BusinessList from './components/BusinessList/BusinessList';
 import SearchBar from './components/SearchBar/SearchBar';
@@ -24,7 +24,7 @@ import Yelp from './util/Yelp';
 //  business
 //];
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
 

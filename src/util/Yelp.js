@@ -1,4 +1,6 @@
-const apiKey = 'yHlIFKW44sPRrJb4aPl1QiTYr3plBNqg5dieWhYB-VBRg_df4htn9vhe-nUgL9weR7j28F55LvMjQc5_z4t1FGWEF0qvF57JDvr8eD6zTQSmWc0n7X6ol1mTMlE8WnYx';
+const config = require('../config.json');
+
+const apiKey = config.yelpApiKey;
 
 const Yelp = {
   search(term, location, sortBy) {
